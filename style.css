@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .course__nearest {
-    margin: 1rem 0 0 0;
-    padding: 0; 
+    margin: 1,3125rem 0 0 0;
+    padding: ; 
     font-size: 12px;
     text-transform: uppercase;
     color: var(--gray);
