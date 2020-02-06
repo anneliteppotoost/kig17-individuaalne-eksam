@@ -1,4 +1,5 @@
 
+
 :root {
     --yellow: #ECD06B;
     --yellow-lighter: hsl(0, 0%, 86%);
@@ -7,7 +8,8 @@
     --pink: #CF7D9F;
     --gray: #DEDEDE;
     --white: #ffffff;
-    --font-family: Poppins;
+    --font-family: Roboto;
+    font font-family: Roboto Slab;
     --font-main: serif;
     --font-special: cursive;
 
@@ -45,8 +47,8 @@ h1, h2, h3, h4, h5 {
     align-items: center;
     flex: 1 1 50%;
     position: relative;
-    background: url(./img/clouds.svg) repeat-x 65% center;
-    background-color: #63BEC3;
+    background: url(./img/taustaillustratsioon\ \(1\).svg) repeat-x 65% center;
+    background-color: var(--blue);
 }
 
 .logo {
@@ -62,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 .lang__btn {
     font-family: var(--font-special);
-    color: var(--pink);
+    color: var(--blue-dark);
     text-decoration: none;
 }
 
@@ -90,6 +92,7 @@ h1, h2, h3, h4, h5 {
 .course__name {
     margin: 1rem 0 0.25rem 0;
     font-size: 36;
+    text-align: center;
     font-weight: 100;
     color: var(--yellow);
 }
@@ -147,8 +150,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn-primary {
-    font: Roboto 
-    font-size: bold 24px;
+    font: Roboto Slab;
+    font-size: bold 20px;
     padding: 0.75rem 1.5rem;
     margin: 1rem 0 1.5rem 0;
     font-family: var(--font-special);
@@ -165,7 +168,7 @@ h1, h2, h3, h4, h5 {
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 14;
 }
 .btn-secondary::after {
     display: inline-block;
@@ -191,7 +194,7 @@ h1, h2, h3, h4, h5 {
     .intro {
         flex: 1 1 70%;
         height: 100vh;
-        background-size: 20%;
+        background-size: 100%;
         background-repeat: repeat;
         background-color: var(--blue);
     }
@@ -215,9 +218,11 @@ h1, h2, h3, h4, h5 {
     }
 
     .course__name {
-        font-size: 0.25rem;
+        font-size: 36;
+        font-family: Poppins;
+        text-align: center;
         margin: 2rem 0 0.5rem 0;
-        transform: rotate(10deg);
+        transform: rotate(360deg);
     }
     .course__address {
         font-size: 0.875rem;
